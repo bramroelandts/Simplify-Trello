@@ -1,0 +1,23 @@
+
+/* MARK: Simplify-Trello modifications */
+
+/* Hide "Recently visited" boards */
+.content-all-boards > div:first-child {
+  display: none !important;
+}
+
+/* Hide "Create new board" */
+.mod-add {
+  display: none !important;
+}
+
+/* Hide left navigation menu */
+.home-sticky-container > div:first-child {
+  display: none !important;
+}
+
+/* Hide team options */
+.boards-page-board-section-header-options {
+  display: none !important;
+}
+

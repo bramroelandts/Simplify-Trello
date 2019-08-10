@@ -1,0 +1,1 @@
+# Simplify-Trello for macOS
