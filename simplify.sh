@@ -9,6 +9,6 @@ sudo mv app.asar app.asar.old
 
 # Append CSS modifications to overrides file
 cd - > /dev/null
-cat modifications.css | sudo tee -a /Applications/Trello.app/Contents/Resources/app/views/css/webview-overrides.css > /dev/null
+cat resources/modifications.css | sudo tee -a /Applications/Trello.app/Contents/Resources/app/views/css/webview-overrides.css > /dev/null
 echo "Done! Please relaunch Trello."
 echo
