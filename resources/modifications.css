@@ -2,7 +2,7 @@
 /* MARK: Simplify-Trello modifications */
 
 /* Hide "Recently visited" boards */
-.content-all-boards > div:first-child {
+.content-all-boards > div:nth-child(2) {
   display: none !important;
 }
 
